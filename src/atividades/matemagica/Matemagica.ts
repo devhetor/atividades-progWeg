@@ -1,4 +1,4 @@
-export class Sum {
+export class Matemagica {
 
     private x: number;
     private y: number
@@ -26,5 +26,17 @@ export class Sum {
   
     public resultSum(): number {
       return this.x + this.y;
+    }
+
+    public resultSub(): number {
+      return this.x - this.y;
+    }
+
+    public resultMult(): number {
+      return this.x * this.y;
+    }
+
+    public resultDiv(): number {
+      return this.x / this.y;
     }
 }
